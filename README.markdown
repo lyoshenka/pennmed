@@ -12,6 +12,8 @@ Drag the link below to your bookmarks bar:
 
 <a href="javascript:(function()%7Bs=document.createElement('script');s.type='text/javascript';s.src='https://raw.github.com/lyoshenka/pennmed/master/pennmed.min.js';document.body.appendChild(s);%7D)();">pennmed bookmarklet</a>
 
+<a href="javascript:alert('hey')">hey</a>
+
 When you open a video in VC2000, click the bookmark.
 
 
