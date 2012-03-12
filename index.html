@@ -15,19 +15,15 @@
     #container {
       margin: 0 auto;
       width: 700px;
+      margin-top: 30px;
     }
-    h1 { font-size: 2.8em; color: #1b64d1; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #1b64d1; }
-    h3 { text-align: center; color: #1b64d1; }
+    h1 { font-size: 2.8em; color: #1b64d1; }
+    h1 a { text-decoration: none; }
+    h2 { margin-top: 0; font-size: 1.5em; color: #1b64d1; }
     a { color: #1b64d1; }
-    .block { font-size: 1.1em; margin-bottom: 30px; margin-top: 30px; }
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
+    p { font-size: 1.1em; margin-bottom: 20px; margin-top: 0 }
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-    .mainlink { font-size: 1.5em; text-align: center;}
+    .mainlink { font-size: 1.5em; text-align: center; margin-bottom: 40px; }
     .mainlink a { color: #f1f1f1; background-color: #1b64d1; padding: 5px}
   </style>
 </head>
@@ -42,22 +38,26 @@
     <h1><a href="https://github.com/lyoshenka/pennmed">PennMed Video Bookmarklet</a></h1>
 
     <h2>About</h2>
-    <div class="block">
+    <p>
       This is a bookmarklet that you can use with the Virtual Curriculum system. It lets you watch the lectures without using Silverlight, so you don't have to install any plugins and you can watch at 1.5x or 2x speed. Works on Windows, Mac, and Linux.
-    </div>
+    </p>
 
     <h2>How to Use</h2>
-    <div class="block">Drag the link below to your bookmark bar. When you open a video in VC2000, click the bookmark.</div>
+    <p>
+      Drag the link below to your bookmark bar. When you open a video in VC2000, click the bookmark.
+    <p>
 
-    <p class="mainlink"><a href="javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://raw.github.com/lyoshenka/pennmed/master/pennmed.min.js?'+Math.random();document.body.appendChild(s);})();">PennMed Bookmarklet</a></p>
+    <div class="mainlink"><a href="javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='https://raw.github.com/lyoshenka/pennmed/master/pennmed.min.js?'+Math.random();document.body.appendChild(s);})();">PennMed Bookmarklet</a></div>
+
+    <h2>Common Problems and Solutions</h2>
+    <p>
+      There's a <a href="http://www.telestream.net/telestream-support/flip4mac-wmv/faq.htm#2k">bug</a> in Quicktime X Player on OS X 10.7 Lion that causes some streaming video to not work. I recommend you <a href="http://www.ofzenandcomputing.com/zanswers/175/#vlc">install VLC</a> and make it your default video player. VLC does not have this problem and it's one of the best video players around. You can also install the <a href="http://support.apple.com/kb/dl923">old Quicktime 7 Player</a>, but I hear it doesn't work as well.
+    </p>
 
     <h2>Something Wrong?</h2>
-    <div class="block">If you need help or you want to buy me a beer, shoot me an email: <a href="mailto:lyoshenka@gmail.com">lyoshenka@gmail.com</a>.</div>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/lyoshenka/pennmed">lyoshenka/pennmed</a>
-    </div>
-
+    <p>
+      If you need help or want to buy me a beer, shoot me an email: <a href="mailto:lyoshenka@gmail.com">lyoshenka@gmail.com</a>.
+    </p>
   </div>
 
 </body>
